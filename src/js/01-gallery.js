@@ -27,3 +27,10 @@ function createGalleryCardsMarkup (galleryItems) {
   })
   .join(``);
 }
+
+new SimpleLightbox(".gallery a", {
+  captionsData: "alt",
+  captionDelay: 250,
+});
+
+// console.log(galleryItems);
